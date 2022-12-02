@@ -2,6 +2,8 @@
 A WhatsApp API client that connects through the WhatsApp Web browser app
 Created meta for developer account. 
 https://developers.facebook.com/docs/whatsapp/sample-app-endpoints#
+https://developers.facebook.com/docs/whatsapp/cloud-api/get-started
+
 Follow through the api creation with glitch
 https://speckle-dandelion-bridge.glitch.me
 Push the api to my whatsapp account. 
