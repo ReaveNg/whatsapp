@@ -12,6 +12,39 @@ unable to verify token.
 Used the 2nd method WhatsApp Business Platform On-Premises API
 https://talented-star-tuna.glitch.me
 
+var express = require('express')
+  , bodyParser = require('body-parser');
+
+var app = express();
+
+app.use(bodyParser.urlencoded({extended: false}));
+app.use(bodyParser.json())
+
+app.get("/", function (request, response) {
+  response.send('Reave</br>Went for a Jog!');
+});
+
+app.get('/webhook', function(req, res) {
+  if (
+    req.query['hub.mode'] == 'subscribe' &&
+    req.query['hub.verify_token'] == 'token'
+  ) {
+    res.send(req.query['hub.challenge']);
+  } else {
+    res.sendStatus(400);
+  }
+});
+
+app.post("/webhook", function (request, response) {
+  console.log('Incoming webhook: ' + JSON.stringify(request.body));
+  response.sendStatus(200);
+});
+
+var listener = app.listen(process.env.PORT, function () {
+  console.log('Your app is listening on port ' + listener.address().port);
+});
+
+
 Apparently, fb banned my token, otherwise I think my token should work. 
 
 Access token invalidationFYI
