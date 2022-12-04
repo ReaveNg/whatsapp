@@ -53,3 +53,7 @@ As stated in our Platform Terms, you must not transfer or share access tokens an
 This action was taken as part of the GitHub secret scanning program. We have partnered with GitHub on this scanning program to protect Facebook users by automatically invalidating Facebook access tokens when they are shared in a public GitHub repository.
 
 Rectified and it seemed to be working. 
+
+![WhatsApp Image 2022-12-04 at 22 55 02](https://user-images.githubusercontent.com/104077738/205497808-6c293e89-8cfb-4a58-8e83-51f78906e640.jpeg)
+![image](https://user-images.githubusercontent.com/104077738/205497864-b03df9b4-2d03-4efa-a604-e51a813a7f9b.png)
+
