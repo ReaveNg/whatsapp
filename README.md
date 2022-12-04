@@ -56,4 +56,8 @@ Rectified and it seemed to be working.
 
 ![WhatsApp Image 2022-12-04 at 22 55 02](https://user-images.githubusercontent.com/104077738/205497808-6c293e89-8cfb-4a58-8e83-51f78906e640.jpeg)
 ![image](https://user-images.githubusercontent.com/104077738/205497864-b03df9b4-2d03-4efa-a604-e51a813a7f9b.png)
+![image](https://user-images.githubusercontent.com/104077738/205497960-4637d100-d12d-4b42-adea-f13f652150a9.png)
+![image](https://user-images.githubusercontent.com/104077738/205497967-7aa38fca-2928-46a0-be24-746e6e455f19.png)
+![image](https://user-images.githubusercontent.com/104077738/205497982-d0fc8655-73f3-45ac-93f9-c69384b09fab.png)
+
 
