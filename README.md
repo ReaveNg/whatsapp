@@ -21,7 +21,7 @@ app.use(bodyParser.urlencoded({extended: false}));
 app.use(bodyParser.json())
 
 app.get("/", function (request, response) {
-  response.send('Reave</br>Went for a Jog!');
+  response.send('Simple WhatsApp Webhook tester</br>There is no front-end & Reave went for a Jog!');
 });
 
 app.get('/webhook', function(req, res) {
@@ -47,7 +47,9 @@ var listener = app.listen(process.env.PORT, function () {
 
 Apparently, fb banned my token, otherwise I think my token should work. 
 
-Access token invalidationFYI
+Access token invalidation FYI
 This application has been identified as having access tokens associated with it posted in a public GitHub repository. As a security measure, we have invalidated the session for these particular tokens.
 As stated in our Platform Terms, you must not transfer or share access tokens and secret keys, except with a Service Provider who helps you build, run or operate your app. These tokens must be kept secret and not shared publicly. Disclosing access tokens to the public may result in unauthorized access to your app.
 This action was taken as part of the GitHub secret scanning program. We have partnered with GitHub on this scanning program to protect Facebook users by automatically invalidating Facebook access tokens when they are shared in a public GitHub repository.
+
+Rectified and it seemed to be working. 
